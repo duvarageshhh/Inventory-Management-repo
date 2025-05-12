@@ -15,19 +15,19 @@ Features
 
 Project Structure
 
-src/
+src /
 
 |---- Main.java
 
-|---- dao/
+|---- dao /
 
 │   ---- ProductDAO.java
 
-|---- model/
+|---- model /
 
 │   ---- Product.java
 
-|---- util/
+|---- util /
 
 │   ---- DBConnection.java
 
