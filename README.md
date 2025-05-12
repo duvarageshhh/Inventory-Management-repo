@@ -13,25 +13,6 @@ Features
 - MySQL database integration via JDBC
 
 
-Project Structure
-
-src /
-
-|---- Main.java
-
-|---- dao /
-
-│   ---- ProductDAO.java
-
-|---- model /
-
-│   ---- Product.java
-
-|---- util /
-
-│   ---- DBConnection.java
-
-
 Technologies Used
 
 - Java 8+
