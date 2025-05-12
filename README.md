@@ -16,12 +16,19 @@ Features
 Project Structure
 
 src/
+
 ├── Main.java
+
 ├── dao/
+
 │   ├── ProductDAO.java
+
 ├── model/
+
 │   ├── Product.java
+
 ├── util/
+
 │   ├── DBConnection.java
 
 
@@ -37,16 +44,23 @@ Database Setup
 1. Create the database:
 
 CREATE DATABASE inventory_db;
+
 USE inventory_db;
 
 2. Create the products table:
 
 CREATE TABLE products (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     name VARCHAR(100) NOT NULL,
+    
     category VARCHAR(100),
+    
     quantity INT NOT NULL,
+    
     price DOUBLE NOT NULL
+    
 );
 
 
